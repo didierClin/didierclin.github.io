@@ -1,0 +1,14 @@
+<header class="header">
+  <nav class="">
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+        <label for="mobile-menu" class="show-mobile-menu">Menu</label>
+    <ul class="header-nav nav-links">
+      {% include nav-links.html %}
+    </ul>
+  </nav>
+  <!-- place logo after links to avoid a space and pushed down nav floated links -->
+  <a href="/" class="header-logo">
+    <img src="/images/logo.png" alt="logo of LE">
+  </a>
+  <!-- {{ include.content }} -->
+</header>
